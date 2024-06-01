@@ -1,0 +1,22 @@
+body{
+    height: 958px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mouse-parallax {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.mouse-parallax-bg {
+    position: absolute;
+    background-image: url("img/1612251969_55-p-samurai-na-fioletovom-fone-91.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 110%;
+    height: 110%;
+    transition: all 0.1s ease;  
+}
